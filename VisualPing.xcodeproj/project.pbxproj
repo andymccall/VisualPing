@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FAE47C920B2DE3C00E19A67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE47C820B2DE3C00E19A67 /* AppDelegate.m */; };
+		8FAE47CB20B2DE3D00E19A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FAE47CA20B2DE3D00E19A67 /* Assets.xcassets */; };
+		8FAE47CE20B2DE3D00E19A67 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FAE47CC20B2DE3D00E19A67 /* MainMenu.xib */; };
+		8FAE47D120B2DE3D00E19A67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE47D020B2DE3D00E19A67 /* main.m */; };
+		8FAE47DC20B2DE3D00E19A67 /* VisualPingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE47DB20B2DE3D00E19A67 /* VisualPingTests.m */; };
+		8FAE47E720B2DE3D00E19A67 /* VisualPingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE47E620B2DE3D00E19A67 /* VisualPingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FAE47D820B2DE3D00E19A67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FAE47BC20B2DE3C00E19A67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FAE47C320B2DE3C00E19A67;
+			remoteInfo = VisualPing;
+		};
+		8FAE47E320B2DE3D00E19A67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FAE47BC20B2DE3C00E19A67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FAE47C320B2DE3C00E19A67;
+			remoteInfo = VisualPing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FAE47C420B2DE3C00E19A67 /* VisualPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAE47C720B2DE3C00E19A67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FAE47C820B2DE3C00E19A67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FAE47CA20B2DE3D00E19A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FAE47CD20B2DE3D00E19A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8FAE47CF20B2DE3D00E19A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FAE47D020B2DE3D00E19A67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FAE47D220B2DE3D00E19A67 /* VisualPing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VisualPing.entitlements; sourceTree = "<group>"; };
+		8FAE47D720B2DE3D00E19A67 /* VisualPingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualPingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAE47DB20B2DE3D00E19A67 /* VisualPingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualPingTests.m; sourceTree = "<group>"; };
+		8FAE47DD20B2DE3D00E19A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FAE47E220B2DE3D00E19A67 /* VisualPingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisualPingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAE47E620B2DE3D00E19A67 /* VisualPingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualPingUITests.m; sourceTree = "<group>"; };
+		8FAE47E820B2DE3D00E19A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FAE47C120B2DE3C00E19A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAE47D420B2DE3D00E19A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAE47DF20B2DE3D00E19A67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FAE47BB20B2DE3C00E19A67 = {
+			isa = PBXGroup;
+			children = (
+				8FAE47C620B2DE3C00E19A67 /* VisualPing */,
+				8FAE47DA20B2DE3D00E19A67 /* VisualPingTests */,
+				8FAE47E520B2DE3D00E19A67 /* VisualPingUITests */,
+				8FAE47C520B2DE3C00E19A67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FAE47C520B2DE3C00E19A67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FAE47C420B2DE3C00E19A67 /* VisualPing.app */,
+				8FAE47D720B2DE3D00E19A67 /* VisualPingTests.xctest */,
+				8FAE47E220B2DE3D00E19A67 /* VisualPingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FAE47C620B2DE3C00E19A67 /* VisualPing */ = {
+			isa = PBXGroup;
+			children = (
+				8FAE47C720B2DE3C00E19A67 /* AppDelegate.h */,
+				8FAE47C820B2DE3C00E19A67 /* AppDelegate.m */,
+				8FAE47CA20B2DE3D00E19A67 /* Assets.xcassets */,
+				8FAE47CC20B2DE3D00E19A67 /* MainMenu.xib */,
+				8FAE47CF20B2DE3D00E19A67 /* Info.plist */,
+				8FAE47D020B2DE3D00E19A67 /* main.m */,
+				8FAE47D220B2DE3D00E19A67 /* VisualPing.entitlements */,
+			);
+			path = VisualPing;
+			sourceTree = "<group>";
+		};
+		8FAE47DA20B2DE3D00E19A67 /* VisualPingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FAE47DB20B2DE3D00E19A67 /* VisualPingTests.m */,
+				8FAE47DD20B2DE3D00E19A67 /* Info.plist */,
+			);
+			path = VisualPingTests;
+			sourceTree = "<group>";
+		};
+		8FAE47E520B2DE3D00E19A67 /* VisualPingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FAE47E620B2DE3D00E19A67 /* VisualPingUITests.m */,
+				8FAE47E820B2DE3D00E19A67 /* Info.plist */,
+			);
+			path = VisualPingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FAE47C320B2DE3C00E19A67 /* VisualPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FAE47EB20B2DE3D00E19A67 /* Build configuration list for PBXNativeTarget "VisualPing" */;
+			buildPhases = (
+				8FAE47C020B2DE3C00E19A67 /* Sources */,
+				8FAE47C120B2DE3C00E19A67 /* Frameworks */,
+				8FAE47C220B2DE3C00E19A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisualPing;
+			productName = VisualPing;
+			productReference = 8FAE47C420B2DE3C00E19A67 /* VisualPing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FAE47D620B2DE3D00E19A67 /* VisualPingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FAE47EE20B2DE3D00E19A67 /* Build configuration list for PBXNativeTarget "VisualPingTests" */;
+			buildPhases = (
+				8FAE47D320B2DE3D00E19A67 /* Sources */,
+				8FAE47D420B2DE3D00E19A67 /* Frameworks */,
+				8FAE47D520B2DE3D00E19A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FAE47D920B2DE3D00E19A67 /* PBXTargetDependency */,
+			);
+			name = VisualPingTests;
+			productName = VisualPingTests;
+			productReference = 8FAE47D720B2DE3D00E19A67 /* VisualPingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FAE47E120B2DE3D00E19A67 /* VisualPingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FAE47F120B2DE3D00E19A67 /* Build configuration list for PBXNativeTarget "VisualPingUITests" */;
+			buildPhases = (
+				8FAE47DE20B2DE3D00E19A67 /* Sources */,
+				8FAE47DF20B2DE3D00E19A67 /* Frameworks */,
+				8FAE47E020B2DE3D00E19A67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FAE47E420B2DE3D00E19A67 /* PBXTargetDependency */,
+			);
+			name = VisualPingUITests;
+			productName = VisualPingUITests;
+			productReference = 8FAE47E220B2DE3D00E19A67 /* VisualPingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FAE47BC20B2DE3C00E19A67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = andymccall.co.uk;
+				TargetAttributes = {
+					8FAE47C320B2DE3C00E19A67 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					8FAE47D620B2DE3D00E19A67 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 8FAE47C320B2DE3C00E19A67;
+					};
+					8FAE47E120B2DE3D00E19A67 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 8FAE47C320B2DE3C00E19A67;
+					};
+				};
+			};
+			buildConfigurationList = 8FAE47BF20B2DE3C00E19A67 /* Build configuration list for PBXProject "VisualPing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FAE47BB20B2DE3C00E19A67;
+			productRefGroup = 8FAE47C520B2DE3C00E19A67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FAE47C320B2DE3C00E19A67 /* VisualPing */,
+				8FAE47D620B2DE3D00E19A67 /* VisualPingTests */,
+				8FAE47E120B2DE3D00E19A67 /* VisualPingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FAE47C220B2DE3C00E19A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAE47CB20B2DE3D00E19A67 /* Assets.xcassets in Resources */,
+				8FAE47CE20B2DE3D00E19A67 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAE47D520B2DE3D00E19A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAE47E020B2DE3D00E19A67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FAE47C020B2DE3C00E19A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAE47D120B2DE3D00E19A67 /* main.m in Sources */,
+				8FAE47C920B2DE3C00E19A67 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAE47D320B2DE3D00E19A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAE47DC20B2DE3D00E19A67 /* VisualPingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FAE47DE20B2DE3D00E19A67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAE47E720B2DE3D00E19A67 /* VisualPingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FAE47D920B2DE3D00E19A67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FAE47C320B2DE3C00E19A67 /* VisualPing */;
+			targetProxy = 8FAE47D820B2DE3D00E19A67 /* PBXContainerItemProxy */;
+		};
+		8FAE47E420B2DE3D00E19A67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FAE47C320B2DE3C00E19A67 /* VisualPing */;
+			targetProxy = 8FAE47E320B2DE3D00E19A67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FAE47CC20B2DE3D00E19A67 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FAE47CD20B2DE3D00E19A67 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FAE47E920B2DE3D00E19A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8FAE47EA20B2DE3D00E19A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8FAE47EC20B2DE3D00E19A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VisualPing/VisualPing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualPing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.andymccall.VisualPing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FAE47ED20B2DE3D00E19A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VisualPing/VisualPing.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualPing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.andymccall.VisualPing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FAE47EF20B2DE3D00E19A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualPingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.andymccall.VisualPingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualPing.app/Contents/MacOS/VisualPing";
+			};
+			name = Debug;
+		};
+		8FAE47F020B2DE3D00E19A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualPingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.andymccall.VisualPingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisualPing.app/Contents/MacOS/VisualPing";
+			};
+			name = Release;
+		};
+		8FAE47F220B2DE3D00E19A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualPingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.andymccall.VisualPingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisualPing;
+			};
+			name = Debug;
+		};
+		8FAE47F320B2DE3D00E19A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisualPingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.andymccall.VisualPingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisualPing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FAE47BF20B2DE3C00E19A67 /* Build configuration list for PBXProject "VisualPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FAE47E920B2DE3D00E19A67 /* Debug */,
+				8FAE47EA20B2DE3D00E19A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FAE47EB20B2DE3D00E19A67 /* Build configuration list for PBXNativeTarget "VisualPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FAE47EC20B2DE3D00E19A67 /* Debug */,
+				8FAE47ED20B2DE3D00E19A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FAE47EE20B2DE3D00E19A67 /* Build configuration list for PBXNativeTarget "VisualPingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FAE47EF20B2DE3D00E19A67 /* Debug */,
+				8FAE47F020B2DE3D00E19A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FAE47F120B2DE3D00E19A67 /* Build configuration list for PBXNativeTarget "VisualPingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FAE47F220B2DE3D00E19A67 /* Debug */,
+				8FAE47F320B2DE3D00E19A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FAE47BC20B2DE3C00E19A67 /* Project object */;
+}
